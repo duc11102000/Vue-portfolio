@@ -58,10 +58,10 @@
         </div>
         <div class="button-container">
           <div class="projects-button">
-            <a href="">My projects</a>
+            <a href="https://github.com/duc11102000?tab=repositories" target="_blank">My projects</a>
           </div>
           <div class="projects-button">
-            <a href="">My resume</a>
+            <a href="../assets/Nguyễn Hữu Đức.CV.pdf" download>My resume</a>
           </div>
         </div>
       </div>
