@@ -12,7 +12,7 @@ export default {
   name: 'App',
   components: {
     MainCard,
-    ProjectsCard
+    ProjectsCard,
   }
 }
 </script>

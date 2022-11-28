@@ -4,7 +4,7 @@
       <div class="container-one">
         <div class="profile">
           <img src="../assets/profile.png" alt="" />
-          <h3>Name</h3>
+          <h3>Nguyễn Hữu Đức</h3>
           <p>Front-end developer</p>
         </div>
         <div class="social-links">
