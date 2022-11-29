@@ -33,7 +33,13 @@ export default {
 
 <style scoped>
 .title {
-  margin-top: 40px;
+  margin-top: 100px;
+}
+
+.title h1 {
+  color: #d0d0d0;
+  text-transform: uppercase;
+  font-size: 40px;
 }
 .main-container {
   /* margin-top: 5%; */

@@ -1,18 +1,24 @@
 <template>
   <div>
+    <HeroCard></HeroCard>
     <MainCard></MainCard>
     <projects-card></projects-card>
+    <footer-card></footer-card>
   </div>
 </template>
 
 <script>
 import MainCard from './components/MainCard.vue'
 import ProjectsCard from './components/ProjectsCard.vue';
+import HeroCard from './components/HeroCard.vue';
+import FooterCard from './components/FooterCard.vue'
 export default {
   name: 'App',
   components: {
+    HeroCard,
     MainCard,
     ProjectsCard,
+    FooterCard
   }
 }
 </script>
@@ -27,6 +33,6 @@ body {
   text-align: center;
   color: #2c3e50;
   padding-top: 60px;
-  background-color: #d6edff;
+  background-color: #2b2626;
 }
 </style>

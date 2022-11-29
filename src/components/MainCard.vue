@@ -85,13 +85,14 @@ img {
 .main-container {
   display: flex;
   flex-direction: row;
-  background-color: #a0d4ff;
+  background-color: #ddb976;
   border-radius: 25px;
-  width: 60%;
+  width: 70%;
 }
 
 .container-one {
-  background-color: #1292ee;
+  background-color: #b68c47;
+  color: #000;
   width: 30%;
   padding: 2.5%;
   border-radius: 25px;
@@ -121,10 +122,25 @@ img {
   text-align: left;
 }
 
-.about p {
-  line-height: 25px;
+.about h1 {
+  text-transform: uppercase;
 }
 
+.about p {
+  font-size: 20px;
+  font-family: 'noto sans';
+  line-height: 35px;
+}
+
+.technology {
+  margin-top: 70px
+}
+
+.technology h1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
 .logo {
   display: flex;
   justify-content: center;
