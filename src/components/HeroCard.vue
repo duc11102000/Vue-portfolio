@@ -57,7 +57,7 @@ export default {};
   width: 60%;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .hero {
     margin-bottom: 50px;
   }

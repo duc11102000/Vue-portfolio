@@ -73,7 +73,7 @@ export default {
   height: 2rem;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .main-container {
     display: block;
     width: 768px;

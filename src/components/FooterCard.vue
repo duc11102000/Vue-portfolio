@@ -36,7 +36,7 @@ export default {};
   text-transform: none;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .footer {
     margin-top: 80px;
   }
