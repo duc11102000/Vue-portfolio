@@ -81,6 +81,13 @@ export default {
   height: 2rem;
 }
 
+.links a {
+  transition: 0.3s ease;
+}
+.links a:hover {
+  opacity: 0.6;
+}
+
 @media (max-width: 768px) {
   .main-container {
     display: block;

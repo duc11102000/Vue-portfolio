@@ -20,18 +20,19 @@ export default {};
 .footer {
   height: 100px;
   margin-top: 100px;
-  padding-bottom: 30px;
-  color: #d0d0d0;
+  padding: 30px 0 80px 0;
+  background: #ddb976;
+  color: #2c3e50;
 }
 
 .footer-1 {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
   text-transform: uppercase;
 }
 
 .footer-1 p:nth-child(2) {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: normal;
   text-transform: none;
 }
