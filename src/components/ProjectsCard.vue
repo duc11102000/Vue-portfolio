@@ -48,6 +48,7 @@ export default {
   /* margin-top: 5%; */
   display: grid;
   grid-template-columns: auto auto auto;
+  grid-row-gap: 50px;
   width: 1200px;
   margin: 0 auto;
 }
@@ -55,7 +56,6 @@ export default {
 .project-card {
   margin: 10px;
   padding: 10px;
-  /* flex-wrap: 0 0 20%; */
   background-color: #fff;
   border-radius: 25px;
   box-shadow: rgba(108, 98, 98, 0.24) 0px 3px 8px;
@@ -65,7 +65,7 @@ export default {
 }
 
 .project-card:hover {
-  box-shadow: rgba(15, 15, 15, 0.24) 0px 3px 8px;
+  margin-top: -20px;
 }
 
 .project-card img {

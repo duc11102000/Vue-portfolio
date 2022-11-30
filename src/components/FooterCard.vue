@@ -20,9 +20,10 @@ export default {};
 .footer {
   height: 100px;
   margin-top: 100px;
-  padding: 30px 0 80px 0;
+  padding: 30px 0 100px 0;
   background: #ddb976;
   color: #2c3e50;
+  font-family: 'noto sans';
 }
 
 .footer-1 {

@@ -95,13 +95,12 @@ img {
 
 .container-one {
   background-color: #b68c47;
-  color: #000;
+  color: #2c3e50;
   width: 30%;
   padding: 2.5%;
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-
 .profile img {
   height: 8rem;
   border-radius: 20%;
@@ -109,11 +108,11 @@ img {
 
 .link a {
   text-decoration: none;
-  color: #000;
+  color: #2c3e50;
   font-size: 12px;
 }
 
-.link img {
+.link img { 
   height: 2rem;
 }
 .container-two {
@@ -152,6 +151,12 @@ img {
 
 .logo img {
   height: 3.5rem;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.logo img:hover {
+  margin-top: -5px;
 }
 
 .button-container {
@@ -160,6 +165,7 @@ img {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  column-gap: 20px;
 }
 
 .cv-button {

@@ -52,12 +52,12 @@ export default {};
   color: #d0d0d0;
   padding: 10px;
   transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-  width: 190px;
+  width: 200px;
   cursor: pointer;
 }
 
 .icon:hover {
-  box-shadow: inset 210px 0 0 0 #ddb976;
+  box-shadow: inset 220px 0 0 0 #ddb976;
   color: #000;
 }
 .icons .left-icon img {
