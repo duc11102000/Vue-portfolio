@@ -5,7 +5,7 @@
         <h1>Xin chào</h1>
         <p>Em là Nguyễn Hữu Đức.</p>
         <p>Người có đam về và hứng thú với lập trình Front-end !!!</p>
-        <p>Rất mong mọi người bỏ thời gian và xem xét portfolio của em ạ.</p>
+        <p>Rất mong mọi người bỏ chút thời gian và xem qua portfolio của em ạ.</p>
         <!-- <a
           download="My CV.zip"
           href="../assets/My CV.zip"

@@ -9,12 +9,15 @@
     >
       <h2>{{ projectData.projectsArray[index].Title }}</h2>
       <img :src="projectData.projectsArray[index].Image" alt="" />
+      <!-- ảnh thì dùng trang https://www.base64-image.de/ -->
       <p>{{ projectData.projectsArray[index].About }}</p>
       <div class="links">
         <a :href="projectData.projectsArray[index].Link1" target="_blank"
           ><img src="../assets/github.png" alt=""
         /></a>
-        <!-- <a :href="projectData.projectsArray[index].Link2" target="_blank"><img src="../assets/github.png" alt=""></a> -->
+        <a :href="projectData.projectsArray[index].Link2" target="_blank"
+          ><img src="../assets/live.png" alt=""
+        /></a>
       </div>
     </div>
   </div>
@@ -69,6 +72,11 @@ export default {
   height: 10rem;
 }
 
+.links {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+}
 .links img {
   height: 2rem;
 }

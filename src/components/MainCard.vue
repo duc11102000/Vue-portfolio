@@ -53,18 +53,19 @@
           <div class="logo">
             <img src="../assets/html.png" alt="" />
             <img src="../assets/css.png" alt="" />
+            <img src="../assets/sass.png" alt="" />
             <img src="../assets/js.png" alt="" />
             <img src="../assets/vuejs.png" alt="" />
             <img src="../assets/bootstrap.png" alt="" />
           </div>
         </div>
         <div class="button-container">
-          <div class="projects-button">
-            <a href="https://github.com/duc11102000?tab=repositories" target="_blank">My projects</a>
+          <div class="cv-button">
+            <a href="https://drive.google.com/file/d/1qY2Tsm9AC2jw5YUOKZUj0o86UGdCjVJT/view" target="_blank">My CV (VN)</a>
           </div>
-          <!-- <div class="projects-button">
-            <a href="../assets/Nguyễn Hữu Đức.CV.pdf" download>My resume</a>
-          </div> -->
+          <div class="cv-button">
+            <a href="https://drive.google.com/file/d/1tLqx0K9Yyn_-RZBIhuYi0ptuFe0OjUQa/view" target="_blank">My CV (EN)</a>
+          </div>
         </div>
       </div>
     </div>
@@ -161,7 +162,7 @@ img {
   align-items: center;
 }
 
-.projects-button {
+.cv-button {
   background-color: #005ca4;
   margin: 5px;
   padding: 15px;
@@ -170,11 +171,11 @@ img {
   transition: 0.2s ease;
 }
 
-.projects-button:hover {
+.cv-button:hover {
   opacity: 0.6;
 }
 
-.projects-button a {
+.cv-button a {
   text-decoration: none;
   color: #fff;
 }
@@ -182,6 +183,16 @@ img {
 @media only screen and (max-width: 950px) {
   .main-container {
     width: 95%;
+  }
+}
+
+@media (max-width: 768px) {
+  .about p {
+    font-size: 16px;
+  }
+
+  .technology {
+    margin-top: 40px;
   }
 }
 </style>

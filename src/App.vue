@@ -3,24 +3,27 @@
     <HeroCard></HeroCard>
     <MainCard></MainCard>
     <projects-card></projects-card>
+    <ContactCard></ContactCard>
     <footer-card></footer-card>
   </div>
 </template>
 
 <script>
-import MainCard from './components/MainCard.vue'
-import ProjectsCard from './components/ProjectsCard.vue';
-import HeroCard from './components/HeroCard.vue';
-import FooterCard from './components/FooterCard.vue'
+import MainCard from "./components/MainCard.vue";
+import ProjectsCard from "./components/ProjectsCard.vue";
+import HeroCard from "./components/HeroCard.vue";
+import FooterCard from "./components/FooterCard.vue";
+import ContactCard from "./components/ContactCard.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
     HeroCard,
     MainCard,
     ProjectsCard,
-    FooterCard
-  }
-}
+    ContactCard,
+    FooterCard,
+  },
+};
 </script>
 
 <style>
