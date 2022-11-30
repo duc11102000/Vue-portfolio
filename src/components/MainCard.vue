@@ -38,7 +38,7 @@
         <div class="about">
           <h1>About me</h1>
           <p>
-            Em tên là Nguyễn Hữu Đức, sinh viên năm cuối của trường đại học
+            Em tên là Nguyễn Hữu Đức, sinh viên của trường đại học
             HUTECH. Với niềm đam mê và thích thú với các công nghệ liên quan
             front-end, em đã tích luỹ được kinh nghiệm sử dụng HTML, CSS,
             Javascript và framework VueJS để làm nên các project cá nhân. Với
