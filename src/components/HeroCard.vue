@@ -56,4 +56,25 @@ export default {};
 .right-col {
   width: 60%;
 }
+
+@media (min-width: 768px) {
+  .hero {
+    margin-bottom: 50px;
+  }
+  .hero .container {
+    width: 95%;
+  }
+
+  .left-col h1 {
+    font-size: 40px;
+  }
+
+  .left-col p {
+    font-size: 18px;
+  }
+
+  .right-col {
+    width: 50%;
+  }
+}
 </style>

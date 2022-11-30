@@ -54,6 +54,8 @@
             <img src="../assets/html.png" alt="" />
             <img src="../assets/css.png" alt="" />
             <img src="../assets/js.png" alt="" />
+            <img src="../assets/vuejs.png" alt="" />
+            <img src="../assets/bootstrap.png" alt="" />
           </div>
         </div>
         <div class="button-container">

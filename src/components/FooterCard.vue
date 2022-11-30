@@ -3,6 +3,7 @@
     <div class="container">
       <div class="footer-1">
         <p>Cảm ơn mọi người đã bỏ thời gian xem qua portfolio của em.</p>
+        <p>Trang portfolio này sẽ tiếp tục mở rộng theo thời gian :D</p>
       </div>
       <div class="footer-2">
         <p>2022. VueJS, HTML, CSS, Javascript. Code bởi Nguyễn Hữu Đức.</p>
@@ -19,6 +20,7 @@ export default {};
 .footer {
   height: 100px;
   margin-top: 100px;
+  padding-bottom: 30px;
   color: #d0d0d0;
 }
 
@@ -26,5 +28,17 @@ export default {};
   font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.footer-1 p:nth-child(2) {
+  font-size: 16px;
+  font-weight: normal;
+  text-transform: none;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    margin-top: 80px;
+  }
 }
 </style>
