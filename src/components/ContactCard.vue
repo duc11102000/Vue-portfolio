@@ -24,6 +24,9 @@
         </div>
       </div>
     </div>
+    <div class="scroll">
+      <div class="scroll"></div>
+    </div>
   </div>
 </template>
 
@@ -51,7 +54,7 @@ export default {};
   box-shadow: inset 0 0 0 0 #ddb976;
   color: #d0d0d0;
   padding: 10px;
-  transition: color 0.3s ease-in-out box-shadow 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   width: 200px;
   cursor: pointer;
 }
