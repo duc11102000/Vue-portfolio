@@ -2,6 +2,7 @@
   <div>
     <HeroCard></HeroCard>
     <MainCard></MainCard>
+    <HobbyCard></HobbyCard>
     <projects-card></projects-card>
     <ContactCard></ContactCard>
     <footer-card></footer-card>
@@ -14,11 +15,13 @@ import ProjectsCard from "./components/ProjectsCard.vue";
 import HeroCard from "./components/HeroCard.vue";
 import FooterCard from "./components/FooterCard.vue";
 import ContactCard from "./components/ContactCard.vue";
+import HobbyCard from "./components/HobbyCard.vue";
 export default {
   name: "App",
   components: {
     HeroCard,
     MainCard,
+    HobbyCard,
     ProjectsCard,
     ContactCard,
     FooterCard,

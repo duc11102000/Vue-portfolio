@@ -91,6 +91,7 @@ img {
   background-color: #ddb976;
   border-radius: 25px;
   width: 70%;
+  box-shadow: 0 20px 50px rgb(0 0 0 / 80%);
 }
 
 .container-one {

@@ -67,7 +67,13 @@ export default {};
 .icons .middle-icon img {
   height: 6rem;
 }
-.icons .right-icon img {
+.icons .right-icon img { 
   height: 6rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 80%;
+  }
 }
 </style>

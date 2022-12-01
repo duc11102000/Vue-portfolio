@@ -37,6 +37,7 @@ export default {
 <style scoped>
 .title {
   margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 .title h1 {
@@ -49,7 +50,7 @@ export default {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-row-gap: 50px;
-  width: 1200px;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -57,15 +58,17 @@ export default {
   margin: 10px;
   padding: 10px;
   background-color: #fff;
+  color: #2c3e50;
   border-radius: 25px;
-  box-shadow: rgba(108, 98, 98, 0.24) 0px 3px 8px;
+  box-shadow: 0 20px 50px rgb(0 0 0 / 80%);
   width: 90%;
   cursor: pointer;
   transition: 0.2s ease;
 }
 
 .project-card:hover {
-  margin-top: -20px;
+  transform: translateY(-20px);
+  background-color: #ddb976;
 }
 
 .project-card img {
