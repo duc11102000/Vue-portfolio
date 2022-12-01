@@ -9,7 +9,10 @@
         </div>
         <div class="social-links">
           <div class="link">
-            <a href="https://github.com/duc11102000?tab=repositories" target="_blank">
+            <a
+              href="https://github.com/duc11102000?tab=repositories"
+              target="_blank"
+            >
               <img src="../assets/github.png" alt="" />
               <h2>Github</h2>
             </a>
@@ -38,14 +41,14 @@
         <div class="about">
           <h1>About me</h1>
           <p>
-            Em tên là Nguyễn Hữu Đức, sinh viên của trường đại học
-            HUTECH. Với niềm đam mê và thích thú với các công nghệ liên quan
-            front-end, em đã tích luỹ được kinh nghiệm sử dụng HTML, CSS,
-            Javascript và framework VueJS để làm nên các project cá nhân. Với
-            những gì em làm được thì em rất mong mình có được công việc lập
-            trình viên front-end để có thể học hỏi được từ các bậc anh chị nhiều
-            hơn. <br>
-            Trang portfolio này của em sử dụng HTML, CSS và JS cùng với framework VueJS.
+            Em tên là Nguyễn Hữu Đức, sinh viên của trường đại học HUTECH. Với
+            niềm đam mê và thích thú với các công nghệ liên quan front-end, em
+            đã tích luỹ được kinh nghiệm sử dụng HTML, CSS, Javascript và
+            framework VueJS để làm nên các project cá nhân. Với những gì em làm
+            được thì em rất mong mình có được công việc lập trình viên front-end
+            để có thể học hỏi được từ các bậc anh chị nhiều hơn. <br />
+            Trang portfolio này của em sử dụng HTML, CSS và JS cùng với
+            framework VueJS.
           </p>
         </div>
         <div class="technology">
@@ -61,10 +64,18 @@
         </div>
         <div class="button-container">
           <div class="cv-button">
-            <a href="https://drive.google.com/file/d/1qY2Tsm9AC2jw5YUOKZUj0o86UGdCjVJT/view" target="_blank">My CV (VN)</a>
+            <a
+              href="https://drive.google.com/file/d/1qY2Tsm9AC2jw5YUOKZUj0o86UGdCjVJT/view"
+              target="_blank"
+              >My CV (VN)</a
+            >
           </div>
           <div class="cv-button">
-            <a href="https://drive.google.com/file/d/1tLqx0K9Yyn_-RZBIhuYi0ptuFe0OjUQa/view" target="_blank">My CV (EN)</a>
+            <a
+              href="https://drive.google.com/file/d/1tLqx0K9Yyn_-RZBIhuYi0ptuFe0OjUQa/view"
+              target="_blank"
+              >My CV (EN)</a
+            >
           </div>
         </div>
       </div>
@@ -113,7 +124,7 @@ img {
   font-size: 12px;
 }
 
-.link img { 
+.link img {
   height: 2rem;
 }
 .container-two {
@@ -122,7 +133,7 @@ img {
 }
 
 .about {
-  text-align: left;
+  text-align: justify;
 }
 
 .about h1 {
@@ -131,12 +142,12 @@ img {
 
 .about p {
   font-size: 20px;
-  font-family: 'noto sans';
+  font-family: "noto sans";
   line-height: 35px;
 }
 
 .technology {
-  margin-top: 70px
+  margin-top: 70px;
 }
 
 .technology h1 {
