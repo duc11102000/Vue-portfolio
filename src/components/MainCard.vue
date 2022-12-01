@@ -170,7 +170,7 @@ img {
 }
 
 .cv-button {
-  background-color: #005ca4;
+  background-color: #3e3d3d;
   margin: 5px;
   padding: 15px;
   border-radius: 15px;
