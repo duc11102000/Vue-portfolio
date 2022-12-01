@@ -25,7 +25,7 @@ export default {};
 
 <style scoped>
 .hero {
-  margin-bottom: 100px;
+  margin-bottom: 110px;
 }
 .hero .container {
   display: flex;
