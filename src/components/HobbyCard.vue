@@ -14,10 +14,9 @@
         <div class="face face-2">
           <div class="content">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima et
-              deserunt, harum explicabo dolor, quidem voluptates, dolore ab quae
-              praesentium earum at est atque animi optio repellat nam sunt
-              delectus!
+              Ai mà không thích du lịch chứ :D ? Đi đây đi đó tận hưởng không
+              khí đặc trưng và văn hoá địa phương của khu vực giúp mở mang tầm
+              nhìn và sảng khoái tinh thân sau những giờ code mệt mỏi.
             </p>
           </div>
         </div>
@@ -32,10 +31,9 @@
         <div class="face face-2">
           <div class="content">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima et
-              deserunt, harum explicabo dolor, quidem voluptates, dolore ab quae
-              praesentium earum at est atque animi optio repellat nam sunt
-              delectus!
+              Sau những giờ code mệt mỏi thì chơi game chính là công cụ hiệu quả
+              để xả stress. Chơi game giúp giải toả những căng thẳng khi làm
+              việc và giúp cho tinh thần vui vẻ hơn rất nhiều.
             </p>
           </div>
         </div>
@@ -50,10 +48,9 @@
         <div class="face face-2">
           <div class="content">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima et
-              deserunt, harum explicabo dolor, quidem voluptates, dolore ab quae
-              praesentium earum at est atque animi optio repellat nam sunt
-              delectus!
+              Còn gì vui hơn khi được ngồi code những thứ mình thích. Đối với
+              mình Code là một trong những thử thách khó nhất và vui nhất trong
+              cuộc đời, đặc biệt là được làm việc với phần UI.
             </p>
           </div>
         </div>
@@ -68,10 +65,8 @@
         <div class="face face-2">
           <div class="content">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima et
-              deserunt, harum explicabo dolor, quidem voluptates, dolore ab quae
-              praesentium earum at est atque animi optio repellat nam sunt
-              delectus!
+              Sau những giờ code mệt mỏi hoặc chán chơi game thì ta làm gì ? Lôi
+              cây đàn ra và chơi các bài nhạc mà mình yêu thích thôi !!!
             </p>
           </div>
         </div>
@@ -86,10 +81,9 @@
         <div class="face face-2">
           <div class="content">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima et
-              deserunt, harum explicabo dolor, quidem voluptates, dolore ab quae
-              praesentium earum at est atque animi optio repellat nam sunt
-              delectus!
+              Đôi lúc ta cũng phải ra ngoài và vui vẻ, không nên ru rú ở nhà và
+              code hoài được. Và khi đi ra ngoài thì luôn trên tay chiếc máy ảnh
+              để chụp trọn các khoảnh khắc đáng nhớ trên đường phố.
             </p>
           </div>
         </div>
@@ -104,10 +98,9 @@
         <div class="face face-2">
           <div class="content">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima et
-              deserunt, harum explicabo dolor, quidem voluptates, dolore ab quae
-              praesentium earum at est atque animi optio repellat nam sunt
-              delectus!
+              Đi bắn cung thể thao là một trong những cách rèn luyện sức khoẻ mà
+              mình thích nhất. Nó rèn ta sự khéo léo và chính xác trong từng lần
+              giương cung và trên hết, bởi vì nó vui và dễ nghiện =)),
             </p>
           </div>
         </div>
@@ -145,6 +138,13 @@ export default {};
 
 .content h3 {
   color: #fff;
+  font-family: "noto sans";
+}
+
+.content p {
+  font-family: "noto sans";
+  text-align: left;
+  line-height: 25px;
 }
 
 .container .hobby-card {
@@ -199,7 +199,7 @@ export default {};
   transform: translateY(0);
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .container {
     display: block;
     width: 40%;
