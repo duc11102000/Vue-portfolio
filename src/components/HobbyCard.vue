@@ -1,7 +1,7 @@
 <template>
   <div class="hobby">
     <div class="title">
-      <h1>Hobby</h1>
+      <h1>Sở thích</h1>
     </div>
     <div class="container">
       <div class="hobby-card">
@@ -169,11 +169,17 @@ export default {};
   z-index: 1;
   transform: translateY(100px);
   cursor: pointer;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 
 .container .hobby-card:hover .face.face-1 {
   transform: translateY(0);
   background-color: #ddb976;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 /* .container .hobby-card .face.face-1 .content {
   opacity: 0.2;
@@ -185,7 +191,7 @@ export default {};
 }
 .container .hobby-card .face.face-2 {
   position: relative;
-  background-color: #fff;
+
   display: flex;
   justify-self: center;
   align-content: center;
@@ -193,10 +199,17 @@ export default {};
   box-sizing: border-box;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
   transform: translateY(-100px);
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 
 .container .hobby-card:hover .face.face-2 {
   transform: translateY(0);
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  background-color: #fff;
 }
 
 @media (max-width: 768px) {

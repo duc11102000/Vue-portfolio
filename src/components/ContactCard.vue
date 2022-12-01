@@ -24,14 +24,22 @@
         </div>
       </div>
     </div>
-    <div class="scroll">
-      <div class="scroll"></div>
-    </div>
+    <!-- <div @click="scrollToTop" class="scroll">
+      <div class="scroll-icon">
+        <p>Go up</p>
+      </div>
+    </div> -->
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    scrollToTop() {
+      window.scrollTo(0, 0);
+    }
+  }
+};
 </script>
 
 <style scoped>
@@ -73,6 +81,8 @@ export default {};
 .icons .right-icon img { 
   height: 6rem;
 }
+
+
 
 @media (max-width: 768px) {
   .container {
