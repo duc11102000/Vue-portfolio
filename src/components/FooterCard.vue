@@ -8,6 +8,11 @@
       <div class="footer-2">
         <p>2022. VueJS, HTML, CSS, Javascript. Code bởi Nguyễn Hữu Đức.</p>
       </div>
+      <div class="wave">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </div>
   </div>
 </template>
@@ -23,9 +28,8 @@ export default {};
   padding: 30px 0 100px 0;
   background: #ddb976;
   color: #2c3e50;
-  font-family: 'noto sans';
+  font-family: "noto sans";
 }
-
 .footer-1 {
   font-size: 30px;
   font-weight: bold;

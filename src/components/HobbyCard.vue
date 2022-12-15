@@ -100,7 +100,7 @@
             <p>
               Đi bắn cung thể thao là một trong những cách rèn luyện sức khoẻ mà
               mình thích nhất. Nó rèn ta sự khéo léo và chính xác trong từng lần
-              giương cung và trên hết, bởi vì nó vui và dễ nghiện =)),
+              giương cung và trên hết, bởi vì nó vui và dễ nghiện =)).
             </p>
           </div>
         </div>

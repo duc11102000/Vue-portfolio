@@ -6,11 +6,6 @@
         <p>Em là Nguyễn Hữu Đức.</p>
         <p>Người có đam về và hứng thú với lập trình Front-end!!!</p>
         <p>Rất mong mọi người bỏ chút thời gian và xem qua portfolio của em ạ.</p>
-        <!-- <a
-          download="My CV.zip"
-          href="../assets/My CV.zip"
-          >Download CV</a
-        > -->
       </div>
       <div class="right-col">
         <img src="../assets/developer.svg" alt="developer" />

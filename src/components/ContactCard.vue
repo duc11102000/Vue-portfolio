@@ -83,6 +83,10 @@ export default {
 }
 
 
+.scroll-icon {
+  cursor: pointer;
+}
+
 
 @media (max-width: 768px) {
   .container {
