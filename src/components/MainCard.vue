@@ -65,14 +65,14 @@
         <div class="button-container">
           <div class="cv-button">
             <a
-              href="https://drive.google.com/file/d/1qY2Tsm9AC2jw5YUOKZUj0o86UGdCjVJT/view"
+              href="https://drive.google.com/file/d/1jC0xqnbgakG6EOGxOYtONOXd-t7hF6Wk/view"
               target="_blank"
               >My CV (VN)</a
             >
           </div>
           <div class="cv-button">
             <a
-              href="https://drive.google.com/file/d/1tLqx0K9Yyn_-RZBIhuYi0ptuFe0OjUQa/view"
+              href="https://drive.google.com/file/d/1dnjJFMKT-Ma9UBonnxE9Sa-23tdRvksd/view"
               target="_blank"
               >My CV (EN)</a
             >
