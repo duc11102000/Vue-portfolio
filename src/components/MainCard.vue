@@ -59,20 +59,21 @@
             <img src="../assets/sass.png" alt="" />
             <img src="../assets/js.png" alt="" />
             <img src="../assets/vuejs.png" alt="" />
+            <img src="../assets/react.png" alt="" />
             <img src="../assets/bootstrap.png" alt="" />
           </div>
         </div>
         <div class="button-container">
           <div class="cv-button">
             <a
-              href="https://drive.google.com/file/d/1jC0xqnbgakG6EOGxOYtONOXd-t7hF6Wk/view"
+              href="https://drive.google.com/file/d/1koXr_fkb-2sas1snC1zjHv2EpykOvu6V/view"
               target="_blank"
               >My CV (VN)</a
             >
           </div>
           <div class="cv-button">
             <a
-              href="https://drive.google.com/file/d/1dnjJFMKT-Ma9UBonnxE9Sa-23tdRvksd/view"
+              href="https://drive.google.com/file/d/1Ux4OW7asr8dWexP_cQSSpVEJwysqZRKr/view"
               target="_blank"
               >My CV (EN)</a
             >
