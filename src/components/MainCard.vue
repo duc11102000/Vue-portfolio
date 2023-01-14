@@ -66,7 +66,7 @@
         <div class="button-container">
           <div class="cv-button">
             <a
-              href="https://drive.google.com/file/d/1koXr_fkb-2sas1snC1zjHv2EpykOvu6V/view"
+              href="https://drive.google.com/file/d/1_CxTfo0GEYF4_89_4eEOP8bmrnQtu-AB/view"
               target="_blank"
               >My CV (VN)</a
             >
