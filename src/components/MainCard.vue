@@ -199,19 +199,16 @@ img {
   color: #fff;
 }
 
-@media only screen and (max-width: 950px) {
-  .main-container {
-    width: 95%;
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .logo {
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+    justify-content: initial;
   }
-}
 
-@media (max-width: 768px) {
   .about p {
-    font-size: 16px;
-  }
-
-  .technology {
-    margin-top: 40px;
+    font-size: 18px;
   }
 }
 </style>

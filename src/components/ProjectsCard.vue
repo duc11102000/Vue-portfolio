@@ -91,17 +91,9 @@ export default {
   opacity: 0.6;
 }
 
-@media (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .main-container {
-    display: block;
-    width: 768px;
-    margin: 0 auto;
-  }
-
-  .project-card {
-    margin: 0 auto;
-    margin-top: 20px;
-    width: 60%;
+    grid-template-columns: auto;
   }
 }
 </style>

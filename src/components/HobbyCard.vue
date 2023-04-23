@@ -116,6 +116,7 @@ export default {};
 <style scoped>
 .hobby {
   margin-top: 100px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .hobby .title h1 {
@@ -212,11 +213,9 @@ export default {};
   background-color: #fff;
 }
 
-@media (max-width: 768px) {
-  .container {
-    display: block;
-    width: 40%;
-    margin: 0 auto;
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .hobby .container {
+    grid-template-columns: 1fr 1fr;
   }
 }
 </style>

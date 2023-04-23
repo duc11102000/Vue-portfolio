@@ -52,24 +52,13 @@ export default {};
   width: 60%;
 }
 
-@media (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .hero {
     margin-bottom: 50px;
   }
-  .hero .container {
-    width: 95%;
-  }
-
-  .left-col h1 {
-    font-size: 40px;
-  }
-
-  .left-col p {
-    font-size: 18px;
-  }
 
   .right-col {
-    width: 50%;
+    display: flex;
   }
 }
 </style>
