@@ -25,7 +25,11 @@
 
 <script>
 import jsonData from "../../projects.json";
+// import carousel from 'vue-owl-carousel'
+
 export default {
+  // components: { carousel },
+
   data() {
     return {
       projectData: jsonData,

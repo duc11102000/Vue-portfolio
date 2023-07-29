@@ -8,7 +8,7 @@
         <div class="icon left-icon">
           <a href="#"><img src="../assets/marker.png" alt="" /></a>
           <h3>Địa chỉ</h3>
-          <p>Tân Bình - Tp.Hồ Chí Minh</p>
+          <p>Gò Vấp - Tp.Hồ Chí Minh</p>
         </div>
         <div class="icon middle-icon">
           <a href="tel:+0968765936"><img src="../assets/phone.png" alt="" /></a>
