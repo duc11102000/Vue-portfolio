@@ -39,7 +39,7 @@
       </div>
       <div class="container-two">
         <div class="about">
-          <h1>About me</h1>
+          <h1>Sơ lược</h1>
           <p>
             Em tên là Nguyễn Hữu Đức, sinh viên của trường đại học HUTECH. Với
             niềm đam mê và thích thú với các công nghệ liên quan front-end, em
@@ -52,7 +52,7 @@
           </p>
         </div>
         <div class="technology">
-          <h1>Technology Studied</h1>
+          <h1>Công nghệ</h1>
           <div class="logo">
             <img src="../assets/html.png" alt="" />
             <img src="../assets/css.png" alt="" />

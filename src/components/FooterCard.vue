@@ -6,7 +6,7 @@
         <p>Trang portfolio này sẽ tiếp tục mở rộng theo thời gian :D</p>
       </div>
       <div class="footer-2">
-        <p>2022. VueJS, HTML, CSS, Javascript. Code bởi Nguyễn Hữu Đức.</p>
+        <p>VueJS, HTML, CSS, Javascript.</p>
       </div>
       <div class="wave">
         <span></span>
