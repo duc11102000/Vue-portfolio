@@ -34,7 +34,7 @@ export default {};
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: #d0d0d0;
+  color: #f5f5f5;
 }
 
 .left-col h1 {

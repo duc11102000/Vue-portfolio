@@ -52,6 +52,7 @@ export default {
 
 .text h3 {
   font-size: 50px;
+  color: #f5f5f5;
 }
 .icons {
   display: flex;
@@ -60,7 +61,7 @@ export default {
 
 .icon {
   box-shadow: inset 0 0 0 0 #ddb976;
-  color: #d0d0d0;
+  color: #f5f5f5;
   padding: 10px;
   transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   width: 200px;
@@ -81,7 +82,6 @@ export default {
 .icons .right-icon img { 
   height: 6rem;
 }
-
 
 .scroll-icon {
   cursor: pointer;
