@@ -1,96 +1,122 @@
 <template>
-  <div class="contact">
-    <div class="container">
-      <div class="text">
-        <h3>Liên hệ</h3>
-      </div>
-      <div class="icons">
-        <div class="icon left-icon">
-          <a href="#"><img src="../assets/marker.png" alt="" /></a>
-          <h3>Địa chỉ</h3>
-          <p>Gò Vấp - Tp.Hồ Chí Minh</p>
+  <div>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="../assets/email.png"
+            alt="email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:duc11102000@gmail.com">duc11102000@gmail.com</a>
+          </p>
         </div>
-        <div class="icon middle-icon">
-          <a href="tel:+0968765936"><img src="../assets/phone.png" alt="" /></a>
-          <h3>Điện thoại</h3>
-          <p>0968765936</p>
-        </div>
-        <div class="icon right-icon">
-          <a href="mailto:duc11102000@gmail.com"
-            ><img src="../assets/mail.png" alt=""
-          /></a>
-          <h3>Email</h3>
-          <p>duc11102000@gmail.com</p>
+        <div class="contact-info-container">
+          <img
+            src="../assets/phone2.png"
+            alt="phone icon"
+            class="icon contact-icon"
+          />
+          <p><a href="tel:0968765936">0968765936</a></p>
         </div>
       </div>
-    </div>
-    <!-- <div @click="scrollToTop" class="scroll">
-      <div class="scroll-icon">
-        <p>Go up</p>
-      </div>
-    </div> -->
+      <a href="#desktop-nav" class="backtotop"
+        ><img src="../assets/arrow.png" alt="Arrow icon" class="icon arrow"
+      /></a>
+    </section>
   </div>
 </template>
-
 <script>
 export default {
   methods: {
     scrollToTop() {
       window.scrollTo(0, 0);
-    }
-  }
+    },
+  },
 };
 </script>
 
 <style scoped>
-.container {
-  width: 70%;
-  margin: 0 auto;
-  color: #d0d0d0;
-  font-family: "noto sans";
-}
-
-.text h3 {
-  font-size: 50px;
-  color: #f5f5f5;
-}
-.icons {
+#contact {
+  position: relative;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 150px;
 }
 
-.icon {
-  box-shadow: inset 0 0 0 0 #ddb976;
-  color: #f5f5f5;
-  padding: 10px;
-  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-  width: 200px;
-  cursor: pointer;
+a {
+  color: black;
+  text-decoration: none;
+  text-decoration-color: white;
+  transition: all 300ms ease;
 }
 
-.icon:hover {
-  box-shadow: inset 220px 0 0 0 #ddb976;
-  color: #000;
-}
-.icons .left-icon img {
-  height: 6rem;
-}
-
-.icons .middle-icon img {
-  height: 6rem;
-}
-.icons .right-icon img { 
-  height: 6rem;
+a:hover {
+  color: grey;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(181, 181, 181);
 }
 
-.scroll-icon {
-  cursor: pointer;
+.section__text__p1 {
+  text-align: center;
+}
+.contact-info-upper-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  margin: 2rem auto;
+  padding: 0.5rem;
 }
 
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
 
-@media (max-width: 768px) {
-  .container {
-    width: 80%;
+.contact-info-container p {
+  font-size: larger;
+}
+
+.contact-icon {
+  cursor: default;
+}
+
+.email-icon {
+  height: 2.5rem;
+}
+
+.backtotop {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.backtotop img {
+  transform: rotate(180deg);
+}
+
+.backtotop:hover {
+  animation: bounce 0.4s cubic-bezier(0.59, -0.67, 0.24, 0.79) 2;
+  animation-direction: alternate;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-70px);
   }
 }
 </style>

@@ -1,19 +1,18 @@
 <template>
   <div class="footer">
-    <div class="container">
-      <div class="footer-1">
-        <p>Cảm ơn mọi người đã bỏ thời gian xem qua portfolio của em.</p>
-        <p>Trang portfolio này sẽ tiếp tục mở rộng theo thời gian :D</p>
-      </div>
-      <div class="footer-2">
-        <p>VueJS, HTML, CSS, Javascript.</p>
-      </div>
-      <div class="wave">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>2023 Vue.JS, HTML, CSS, Javascript.</p>
+    </footer>
   </div>
 </template>
 
@@ -22,29 +21,42 @@ export default {};
 </script>
 
 <style scoped>
-.footer {
-  height: 100px;
+footer {
+  /* height: 26vh;
+  margin: 0 1rem; */
   margin-top: 100px;
-  padding: 30px 0 100px 0;
-  background: #ddb976;
-  color: #2c3e50;
-  font-family: "noto sans";
-}
-.footer-1 {
-  font-size: 30px;
-  font-weight: bold;
-  text-transform: uppercase;
 }
 
-.footer-1 p:nth-child(2) {
-  font-size: 20px;
-  font-weight: normal;
-  text-transform: none;
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
 }
 
-@media (max-width: 768px) {
-  .footer {
-    margin-top: 80px;
-  }
+a {
+  color: black;
+  text-decoration: none;
+  text-decoration-color: white;
+  transition: all 300ms ease;
+}
+
+a:hover {
+  color: grey;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(181, 181, 181);
+}
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+footer p {
+  text-align: center;
+  color: rgb(85, 85, 85);
+  margin-bottom: 20px;
 }
 </style>

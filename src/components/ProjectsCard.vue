@@ -1,103 +1,144 @@
+<!-- {{ projectData.projectsArray }} -->
+<!-- ảnh thì dùng trang https://www.base64-image.de/ -->
 <template>
-  <div class="title"><h1>Các project tiêu biểu</h1></div>
-  <div class="main-container">
-    <!-- {{ projectData.projectsArray }} -->
-    <div
-      class="project-card"
-      v-for="(items, index) in projectData.projectsArray"
-      :key="items"
-    >
-      <h2>{{ projectData.projectsArray[index].Title }}</h2>
-      <img :src="projectData.projectsArray[index].Image" alt="" />
-      <!-- ảnh thì dùng trang https://www.base64-image.de/ -->
-      <p>{{ projectData.projectsArray[index].About }}</p>
-      <div class="links">
-        <a :href="projectData.projectsArray[index].Link1" target="_blank"
-          ><img src="../assets/github.png" alt=""
-        /></a>
-        <a :href="projectData.projectsArray[index].Link2" target="_blank"
-          ><img src="../assets/live.png" alt=""
-        /></a>
-      </div>
-    </div>
+  <div>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <swiper
+        :options="swiperOptions"
+        :slides-per-view="3"
+        :space-between="30"
+        :navigation="true"
+        class="projects-details-container"
+      >
+        <swiper-slide
+          v-for="(items, index) in projectData.projectsArray"
+          :key="items"
+        >
+          <div class="details-container">
+            <div class="article-container">
+              <img
+                :src="projectData.projectsArray[index].Image"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              {{ projectData.projectsArray[index].Title }}
+            </h2>
+            <p>
+              {{ projectData.projectsArray[index].About }}
+            </p>
+            <div class="btn-container">
+              <a class="project-btn" :href="projectData.projectsArray[index].Link1" target="_blank"> Github </a>
+              <a class="project-btn" :href="projectData.projectsArray[index].Link2" target="_blank"> Live Demo </a>
+            </div>
+          </div>
+        </swiper-slide>
+      </swiper>
+    </section>
   </div>
 </template>
 
 <script>
 import jsonData from "../../projects.json";
-// import carousel from 'vue-owl-carousel'
+import { Swiper, SwiperSlide } from "swiper/vue";
+import SwiperCore, { Navigation, Pagination } from "swiper/core";
+import "swiper/css";
+import "swiper/css/navigation";
+
+SwiperCore.use([Navigation, Pagination]);
 
 export default {
-  // components: { carousel },
-
+  components: {
+    Swiper,
+    SwiperSlide,
+  },
   data() {
     return {
       projectData: jsonData,
+      swiperOptions: {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      },
     };
   },
 };
 </script>
 
 <style scoped>
-.title {
+#projects {
+  position: relative;
   margin-top: 100px;
-  margin-bottom: 50px;
 }
 
-.title h1 {
-  color: #f5f5f5;
-  text-transform: uppercase;
-  font-size: 40px;
-}
-.main-container {
-  /* margin-top: 5%; */
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-row-gap: 50px;
-  width: 80%;
-  margin: 0 auto;
+.section__text__p1 {
+  text-align: center;
 }
 
-.project-card {
-  margin: 10px;
-  padding: 10px;
-  background-color: #fff;
-  color: #2c3e50;
-  border-radius: 25px;
-  box-shadow: 0 20px 50px rgb(0 0 0 / 80%);
-  width: 90%;
+.projects-details-container {
+  margin-top: 40px;
+}
+
+.projects-containers {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+  height: 400px;
   cursor: pointer;
-  transition: 0.2s ease;
 }
 
-.project-card:hover {
-  transform: translateY(-20px);
-  background-color: #ddb976;
+.details-container p {
+  text-align: left;
 }
 
-.project-card img {
-  height: 10rem;
+.project-img {
+  border-radius: 2rem;
+  width: 90%;
+  height: 90%;
 }
 
-.links {
+.project-title {
+  color: black;
+}
+
+.btn-container {
   display: flex;
   justify-content: center;
-  column-gap: 20px;
-}
-.links img {
-  height: 2rem;
+  gap: 1rem;
 }
 
-.links a {
-  transition: 0.3s ease;
-}
-.links a:hover {
-  opacity: 0.6;
+.project-btn {
+  text-decoration: none;
+  border: 2px solid #a3a3a3;
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2rem;
+  color: black;
+  background: none;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .main-container {
-    grid-template-columns: auto;
-  }
+.project-btn:hover {
+  cursor: pointer;
+  background: rgb(53, 53, 53);
+  color: white;
+  border: rgb(255, 255, 255) 0.1rem solid;
 }
 </style>
