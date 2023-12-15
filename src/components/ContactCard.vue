@@ -105,18 +105,4 @@ a:hover {
   transform: rotate(180deg);
 }
 
-.backtotop:hover {
-  animation: bounce 0.4s cubic-bezier(0.59, -0.67, 0.24, 0.79) 2;
-  animation-direction: alternate;
-}
-
-@keyframes bounce {
-  0% {
-    transform: translateY(0);
-  }
-
-  100% {
-    transform: translateY(-70px);
-  }
-}
 </style>
