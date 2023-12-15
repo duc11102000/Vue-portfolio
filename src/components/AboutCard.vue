@@ -30,12 +30,12 @@
               Hi, I'm <strong>Nguyễn Hữu Đức</strong>, i'm from the
               <strong>HUTECH University</strong>, major in
               <strong>Software Engineer. </strong>. I have a profound
-              passion for <strong>Front End Technology</strong>, and I love to create beautiful
+              passion for <strong>Front-End Technology</strong>, and I love to create beautiful
               and performant products with delightful user experiences.
               Proficient in <strong>HTML</strong>, <strong>CSS</strong>, and
               <strong>Javascript</strong>, along with expertise in the
               <strong>Vue.JS</strong> framework, i am looking forward to be a
-              professional <strong>Frontend Developer</strong> in a highly productive work
+              professional <strong>Front-end Developer</strong> in a highly productive work
               environment.
             </p>
           </div>
