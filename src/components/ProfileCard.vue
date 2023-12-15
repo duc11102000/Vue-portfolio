@@ -11,6 +11,7 @@
         <div class="btn-container">
           <a
             href="https://drive.google.com/file/d/1a7JBh8SwpJwnbwWddTO_wUr-AVw5p5BW/view?usp=drive_link"
+            target="_blank"
             class="btn btn-color-2"
           >
             Download CV
