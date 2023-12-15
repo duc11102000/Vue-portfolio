@@ -21,7 +21,7 @@
           </button>
         </div>
         <div id="socials-container">
-          <a href="https://github.com/duc11102000"
+          <a href="https://github.com/duc11102000" target="_blank"
             ><img
               src="../assets/github.png"
               alt="My Github profile"
