@@ -29,7 +29,7 @@
             <p>
               Hi, I'm <strong>Nguyễn Hữu Đức</strong>, i'm from the
               <strong>HUTECH University</strong>, major in
-              <strong>Software Engineer. </strong>. I have a profound
+              <strong>Software Engineer</strong>. I have a profound
               passion for <strong>Front-End Technology</strong>, and I love to create beautiful
               and performant products with delightful user experiences.
               Proficient in <strong>HTML</strong>, <strong>CSS</strong>, and
